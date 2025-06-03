@@ -29,7 +29,7 @@ A Bash script to easily create and manage systemd services for continuously ping
 1.  **Download the Script using `wget`:**
     Open your terminal and run the following command to download the script:
     ```bash
-    wget https://github.com/soheilas/pingservice/raw/refs/heads/main/pingservice.sh & bash pingservice.sh
+    wget -O pingservice https://github.com/soheilas/pingservice/raw/refs/heads/main/pingservice.sh && chmod +x pingservice && sudo ./pingservice
 
     ```
     This will launch the interactive menu to manage your ping services.
